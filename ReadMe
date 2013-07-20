@@ -1,0 +1,17 @@
+Here the source code is given for the implementation of scheduling algorithms:
+FIFO
+LFU
+LRU-STACK
+LRU-REF8
+LRU-CLOCK
+OPTIMAL
+
+Here makefile is used to compile the code.
+Here file named "ab" is the input file.
+To run the file 
+type: make
+type:./virtualmem -h -f (no. of frames)  - r (name of Algorithm) -i (input file)
+example:
+./vitualmem -h -f 4 -r LRU-REF8 -i ab.txt
+
+/* if we try to run "-r" without any parameter it will not provide the essential output...*/
